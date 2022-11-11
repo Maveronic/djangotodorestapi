@@ -20,4 +20,4 @@ class LoginSerializer(serializers.ModelSerializer):
         model = User
         fields = ('email', 'username', 'password', 'token')
 
-        read_only_fields = ['token']
+        #read_only_fields = ['token']
